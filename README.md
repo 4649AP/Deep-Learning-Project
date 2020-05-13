@@ -1,12 +1,10 @@
 # Convolution Neural Network Architecture Exploration Project
 
-### Input Data: 
-The dataset contains black characters on a white background with varying height and width, belonging to one 62 classes including digits 0-9 and the alphabet in both upper-case and lower-case. Each character has been stripped of context, including other characters of a word or sentence, relative size of neighbouring characters or a plane that may give some hint towards the case of a character. Thus, for this distilled challenge classifiers will be relying primarily on the features of the character itself to perform classification.
-
-
 ### Aim: 
 Achieve the best possible classification by training on a provided training dataset of 37882, 128 pixel by 128 pixel, grayscale images that are transformed to arrays with values ranging between 0-255. Each image contains a seemingly digitally generated single centered character out of context with almost no visual noise. 
 
+### Input Data: 
+The dataset contains black characters on a white background with varying height and width, belonging to one 62 classes including digits 0-9 and the alphabet in both upper-case and lower-case. Each character has been stripped of context, including other characters of a word or sentence, relative size of neighbouring characters or a plane that may give some hint towards the case of a character. Thus, for this distilled challenge classifiers will be relying primarily on the features of the character itself to perform classification.
 
 ### Model Experiments
 
