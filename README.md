@@ -1,4 +1,5 @@
 # Convolution Neural Network Architecture Exploration Project
+### University of Sydney Master of Data Science
 
 ### Aim: 
 Achieve the best possible classification by training on a provided training dataset of 37882, 128 pixel by 128 pixel, grayscale images that are transformed to arrays with values ranging between 0-255. Each image contains a seemingly digitally generated single centered character out of context with almost no visual noise. 
