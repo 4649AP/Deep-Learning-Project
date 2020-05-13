@@ -1,6 +1,4 @@
 # Convolution Neural Network Architecture Exploration Project
-#### Code: Alister Palmer
-
 
 ### Input Data: 
 The dataset contains black characters on a white background with varying height and width, belonging to one 62 classes including digits 0-9 and the alphabet in both upper-case and lower-case. Each character has been stripped of context, including other characters of a word or sentence, relative size of neighbouring characters or a plane that may give some hint towards the case of a character. Thus, for this distilled challenge classifiers will be relying primarily on the features of the character itself to perform classification.
