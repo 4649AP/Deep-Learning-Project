@@ -3,6 +3,9 @@
 ### Aim: 
 Achieve the best possible classification by training on a provided training dataset of 37882, 128 pixel by 128 pixel, grayscale images that are transformed to arrays with values ranging between 0-255. Each image contains a seemingly digitally generated single centered character out of context with almost no visual noise. 
 
+### Hardware:
+We created an p2-xlarge GPU instance on Amazon EC2 consisting of a GPU with 12GB memory, 4 vCPUs and 61GB of memory. The AWS Deep Learning AMI was adopted and comes pre-installed with Python3.6, Tensorflow and Keras. Other required packages were installed to the instance and experiments conducted using Jupyter notebooks. Within this environment the benchmark CNN ran in 122 seconds.
+
 ### Input Data: 
 The dataset contains black characters on a white background with varying height and width, belonging to one 62 classes including digits 0-9 and the alphabet in both upper-case and lower-case. Each character has been stripped of context, including other characters of a word or sentence, relative size of neighbouring characters or a plane that may give some hint towards the case of a character. Thus, for this distilled challenge classifiers will be relying primarily on the features of the character itself to perform classification.
 
